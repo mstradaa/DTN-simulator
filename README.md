@@ -1,6 +1,5 @@
 <p align="center">
-  <img width="250" height="137" alt="DTN-logo"
-       src="https://github.com/user-attachments/assets/46199cc1-0ddc-425f-b85f-1b462e38411b" />
+  <img width="250" height="137" alt="DTN-logo" src="https://github.com/user-attachments/assets/de8cc209-bb88-457f-8fac-7e95ca1ac1d0" />
 </p>
 
 # Delay Tolerant Network (DTN) Simulation
@@ -17,7 +16,7 @@ For a deeper explanation of DTN theory, protocols, and security concepts, see th
 The program includes two different scenarios:
 
 ### 1) Space Communications (Mars to Earth)
-<img width="1326" height="550" alt="DTN-space" src="https://github.com/user-attachments/assets/f1b16928-65ed-4ea9-b39f-64a686c28819" />
+<img width="1326" height="550" alt="DTN-space" src="https://github.com/user-attachments/assets/4aa0dfba-73b5-4ce9-b906-a5d13a45238c" />
 
 This scenario simulates high-latency space transmission from a research outpost on Mars to Mission Control on Earth. 
 
@@ -36,7 +35,7 @@ The scenario allows activation of three different attacks:
 > This project does **not** simulate realistic orbital paths, speeds, or link budgets. The focus is to demonstrate DTN concepts using two example use cases with a deliberately simple visual representation.
 
 ### 2) Military Communications (Tactical Convoy)
-<img width="1326" height="427" alt="DTN-Military" src="https://github.com/user-attachments/assets/e66c983e-eeb3-4251-b0c4-25c0aeff293c" />
+<img width="1326" height="427" alt="DTN-military" src="https://github.com/user-attachments/assets/bc1cc55c-954f-4ae9-9ac2-fa23a90cf611" />
 
 This scenario represents an environment where a military convoy moves through hostile territory. \
 The goal is to transport a sensitive status report from the Lead Vehicle to the Head Quarter (HQ) while avoiding unnecessary transmission.
