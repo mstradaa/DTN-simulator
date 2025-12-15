@@ -9,7 +9,7 @@ This project provides an interactive simulation of Delay and Disruption Tolerant
 It demonstrates DTN behaviors such as store-and-forward routing, intermittent connectivity, and buffering through a Terminal User Interface (TUI).
 The simulator also supports different DTN attacks such as black hole attacks (traffic dropping) and resource exhaustion.
 
-For a deeper explanation of DTN theory, protocols, and security concepts, see the dedicated blog post [here](https://mstrada.me).
+For a deeper explanation of DTN theory, protocols, and security concepts, see the dedicated blog post [here](https://mstrada.me/posts/dtnsec).
 
 ## Simulation Scenarios
 
@@ -23,7 +23,7 @@ This scenario simulates high-latency space transmission from a research outpost 
 Direct communication can be unavailable due to obstructions and timing constraints, so the network relies on relays (Mars Orbiter, Lunar Satellites, Earth Satellite). \
 It uses opportunistic communication where satellites discover each other at runtime via beacons, and the contact duration is uncertain.
 
-For the sake of the project, the program simulates Mars transmission only when the satellite is on the right side.
+For this simulation, the program simulates Mars transmission only when the satellite is on the right side.
 
 The scenario allows activation of three different attacks:
 
@@ -40,7 +40,7 @@ The scenario allows activation of three different attacks:
 This scenario represents an environment where a military convoy moves through hostile territory. \
 The goal is to transport a sensitive status report from the Lead Vehicle to the Head Quarter (HQ) while avoiding unnecessary transmission.
 
-The transmission uses persistent contacts between the three vehicles, while utilizing opportunistic contacts with the HQ due to possibile environment obstructions. \
+The transmission uses persistent contacts between the three vehicles, while utilizing opportunistic contacts with the HQ due to possible environmental obstructions. \
 Data moves physically with the convoy (Lead → Cargo → Rear). After forwarding, a node deletes its local copy. 
 
 The scenario allows the activation of a jamming attack on the rear truck (comms sender) and the usage of persistent storage by the previous vehicle until the jamming attack is over.
